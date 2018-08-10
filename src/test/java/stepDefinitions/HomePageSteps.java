@@ -6,6 +6,7 @@ import cucumber.TestContext;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import junit.framework.Assert;
 import manager.FileReaderManager;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
@@ -49,7 +50,9 @@ public class HomePageSteps {
 	
 	@Then("^User perform click on login$")
 	public void user_perform_click_on_login()  {
-          
+		
+//      String a = testcontext.getWebdrivermanager().getDriver().getCurrentUrl();  
+//        Assert.assertEquals("hey", a);
 	 	 home.click();
 	}
 	

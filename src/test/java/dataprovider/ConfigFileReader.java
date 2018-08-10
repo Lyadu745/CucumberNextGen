@@ -96,5 +96,11 @@ public class ConfigFileReader {
 		else throw new RuntimeException("Json File Path is not present");
 	}
 	
+	public String getextentreports() {
+		String extentreport = properties.getProperty("reportConfigPath");
+		if(extentreport != null) return extentreport;
+		else throw new RuntimeException("File not Found");
+	}
+	
 	
 }
