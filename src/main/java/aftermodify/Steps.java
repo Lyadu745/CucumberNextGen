@@ -64,7 +64,7 @@ public class Steps {
 	@When("^Project Landing Page Opens$")
 	public void project_Landing_Page_Opens()  {
      System.out.println(driver.getCurrentUrl());
-		
+		System.out.println("");
 	}
 
 	@Then("^User click on Newsletter$")
