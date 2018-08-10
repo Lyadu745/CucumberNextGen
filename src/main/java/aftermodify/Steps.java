@@ -81,7 +81,7 @@ public class Steps {
 	@And("^Click on Segments")
 	public void click_on_Segments() throws Throwable {
 		Elp.Segments();
-	   
+	   System.err.println("");
 	}
 	@And("^Click on Reports$")
 	public void click_on_Reports()  {
