@@ -17,7 +17,7 @@ import manager.FileReaderManager;
 @CucumberOptions(
 		features = "src/test/resources/FunctionalTests",
 		glue  = {"stepDefinitions"},
-		tags = {"@SmokeTest","~@RegressionTest"},
+		tags = {"@SmokeTest,@RegressionTest"},
 		plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
 	//	plugin = {"pretty","json:target/cucumber-reports/Report1.json","junit:target/cucumber-reports/Report2.xml","html:target/cucumber-reports"},
 		dryRun = false,
