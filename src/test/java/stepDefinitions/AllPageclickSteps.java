@@ -1,3 +1,10 @@
+
+/**
+ * @author Lalit
+ *
+ */
+
+
 package stepDefinitions;
 
 
@@ -7,6 +14,7 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 
 import pageObjects.EmailingLandingPage;
+
 
 public class AllPageclickSteps {
 	
@@ -34,6 +42,7 @@ public class AllPageclickSteps {
 	//Elp = new EmailingLandingPage(driver);
 	 // Elp = pageobjectmanager.getEmailLandingPage();
 		Elp.clickNewsletter();
+		System.out.println("Newsletter Clicked");
 	}
     
 	@Then("^User click on Campaigns$")

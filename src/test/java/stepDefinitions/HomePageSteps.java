@@ -1,3 +1,9 @@
+/**
+ * @author Lalit
+ *
+ */
+
+
 package stepDefinitions;
 
 
@@ -11,6 +17,7 @@ import manager.FileReaderManager;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import testdatatypes.Customer;
+
 
 public class HomePageSteps {
 	
