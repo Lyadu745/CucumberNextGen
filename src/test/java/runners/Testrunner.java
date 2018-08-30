@@ -20,7 +20,7 @@ import manager.FileReaderManager;
 		tags = {"@SmokeTest,@RegressionTest"},
 		plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
 	//	plugin = {"pretty","json:target/cucumber-reports/Report1.json","junit:target/cucumber-reports/Report2.xml","html:target/cucumber-reports"},
-		dryRun = false,
+		dryRun = true,
 		monochrome = true
 		)
 

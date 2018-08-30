@@ -44,4 +44,9 @@ Scenario: Newsletter Page
 	Then Enter Newsletterdetails And Save Newsletter
 	When User click on View Newsletter
 
+@SmokeTest
+Scenario: Campign Page
+   When Click For Campaign 
+   Then Enter Campaign Name
+   And  Select NewsletterName 
 	
