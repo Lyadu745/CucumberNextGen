@@ -2,6 +2,7 @@ package manager;
 
 import org.openqa.selenium.WebDriver;
 
+import pageObjects.CampaignPage;
 import pageObjects.EmailingLandingPage;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
@@ -15,7 +16,7 @@ public class PageObjectManager {
 	private HomePage homepage;
 	private EmailingLandingPage El;
 	private NewsletterPage NL;
-	
+	private CampaignPage CP;
 	
 	public PageObjectManager(WebDriver driver)
 	{
@@ -42,6 +43,10 @@ public class PageObjectManager {
 	public NewsletterPage getNewsletterpage() {
 		
 		return (NL == null )? NL = new NewsletterPage(driver):NL;
+	}
+	
+	public CampaignPage getCampaignPage() {
+		return(CP == null)? CP = new CampaignPage(driver):CP;
 	}
 
 }

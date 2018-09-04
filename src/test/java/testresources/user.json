@@ -14,7 +14,11 @@
 		                       "opensms":"hello Webapp",
 		                       "clicksms":"hello NextGen"
 		                      
-	                         }
+	                         },
+	                         
+	     "CampaignDetails":  {
+	                          "Campaignname":"Extra Rights",
+	                          "NewsletterName":"q"
+	                          }                  
      }
-	 
 ]

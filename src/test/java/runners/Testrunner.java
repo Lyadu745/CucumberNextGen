@@ -15,12 +15,12 @@ import manager.FileReaderManager;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "src/test/resources/FunctionalTests",
+		features = "src/test/resources/FunctionalTests/Task.feature",
 		glue  = {"stepDefinitions"},
-		tags = {"@SmokeTest,@RegressionTest"},
+		tags = {"~@SmokeTest","~@RegressionTest","@New"},
 		plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
 	//	plugin = {"pretty","json:target/cucumber-reports/Report1.json","junit:target/cucumber-reports/Report2.xml","html:target/cucumber-reports"},
-		dryRun = true,
+		dryRun = false,
 		monochrome = true
 		)
 

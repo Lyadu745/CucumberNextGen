@@ -5,7 +5,7 @@ public class Customer {
 	public String Username;
 	public String password;
 	public NewsletterDetails NewsletterDetails;
-	
+	public CampaignDetails CampaignDetails;
 
 	public class NewsletterDetails {
 
@@ -19,8 +19,7 @@ public class Customer {
 		public String Hostingserver;
 		public String opensms;
 		public String clicksms;
-		
-		
+
 		@Override
 		public String toString() {
 			StringBuilder builder = new StringBuilder();
@@ -47,22 +46,25 @@ public class Customer {
 			builder.append("]");
 			return builder.toString();
 		}
-		
-		
+
 	}
 
+	public class CampaignDetails {
 
-	@Override
-	public String toString() {
-		StringBuilder builder = new StringBuilder();
-		builder.append("Customer [Username=");
-		builder.append(Username);
-		builder.append(", password=");
-		builder.append(password);
-		builder.append(", NewsletterDetails=");
-		builder.append(NewsletterDetails);
-		builder.append("]");
-		return builder.toString();
+		public String Campaignname;
+		public String NewsletterName;
+
+		@Override
+		public String toString() {
+			StringBuilder builder = new StringBuilder();
+			builder.append("CampaignDetails [Campaignname=");
+			builder.append(Campaignname);
+			builder.append(", NewsletterName=");
+			builder.append(NewsletterName);
+			builder.append("]");
+			return builder.toString();
+		}
+
 	}
 
 }
