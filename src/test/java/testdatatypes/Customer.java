@@ -53,7 +53,15 @@ public class Customer {
 
 		public String Campaignname;
 		public String NewsletterName;
-
+		public String SegmentName;
+		public String Domain;
+		public String DomainName;
+		public String CampaignType;
+		public String Campaigntag;
+		public String MaxVolumeCap;
+		public String ScheduleRTos;
+		
+		
 		@Override
 		public String toString() {
 			StringBuilder builder = new StringBuilder();
@@ -61,6 +69,20 @@ public class Customer {
 			builder.append(Campaignname);
 			builder.append(", NewsletterName=");
 			builder.append(NewsletterName);
+			builder.append(", SegmentName=");
+			builder.append(SegmentName);
+			builder.append(", Domain=");
+			builder.append(Domain);
+			builder.append(", DomainName=");
+			builder.append(DomainName);
+			builder.append(", CampaignType=");
+			builder.append(CampaignType);
+			builder.append(", Campaigntag=");
+			builder.append(Campaigntag);
+			builder.append(", MaxVolumeCap=");
+			builder.append(MaxVolumeCap);
+			builder.append(", ScheduleRTos=");
+			builder.append(ScheduleRTos);
 			builder.append("]");
 			return builder.toString();
 		}

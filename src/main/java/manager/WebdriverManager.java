@@ -50,6 +50,7 @@ public class WebdriverManager {
 	 }
 	 private WebDriver createlocaldriver()
 	 {
+		 
 		 switch(dtype) {
 		 case CHROME:System.setProperty(CHROME_DRIVER, FileReaderManager.getInstance().getConfigreader().getDriverPath());
 			 driver = new ChromeDriver();

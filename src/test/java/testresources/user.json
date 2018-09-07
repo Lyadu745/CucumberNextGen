@@ -1,24 +1,29 @@
-[	
-    {
-	   "Username": "admin",
+[
+	{
+		"Username": "admin",
 		"password": "admin",
 		"NewsletterDetails": {
-		                      "Newslettername":"ksonुपरकुरप@",
-		                      "Sendername":"Data्े@&*!#$%^",
-		                      "SubjectLine":"Here nightरुपरसव@",
-		                      "category":"banking",
-		                      "subcategory":"loan",
-		                      "customername":"netcore",
-		                       "clientname":"axis",
-		                       "Hostingserver":"ImageHosting1_Server",
-		                       "opensms":"hello Webapp",
-		                       "clicksms":"hello NextGen"
-		                      
-	                         },
-	                         
-	     "CampaignDetails":  {
-	                          "Campaignname":"Extra Rights",
-	                          "NewsletterName":"q"
-	                          }                  
-     }
+			"Newslettername": "ksonुपरकुरप@",
+			"Sendername": "Data्े@&*!#$%^",
+			"SubjectLine": "Here nightरुपरसव@",
+			"category": "banking",
+			"subcategory": "loan",
+			"customername": "netcore",
+			"clientname": "axis",
+			"Hostingserver": "ImageHosting1_Server",
+			"opensms": "hello Webapp",
+			"clicksms": "hello NextGen"
+		},
+		"CampaignDetails": {
+			"Campaignname": "Extra Rights",
+			"NewsletterName": "RTO",
+			"SegmentName": "Test 5",
+			"Domain": "Explicit Domain",
+			"DomainName": "taskbucksletter.in",
+			"CampaignType": "Promo",
+			"Campaigntag": "Banner",
+			"MaxVolumeCap": "6",
+			"ScheduleRTos":"No"
+		}
+	}
 ]

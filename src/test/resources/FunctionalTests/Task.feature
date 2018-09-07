@@ -49,4 +49,12 @@ Scenario: Campaign Page
    When Click For Campaign 
    Then Enter Campaign Name
    And  Select NewsletterName 
-	
+   And  Click on Live Time
+   And Select Segmentt Name
+   And Click on fetch count
+   And Select Domain
+   And Select Domain Name
+   And Select Campaign type
+   And Enter Max Volume Cap
+   And Schedule Rtos 
+   

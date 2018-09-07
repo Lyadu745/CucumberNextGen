@@ -56,7 +56,8 @@ public class Hooks {
    }
    
    @After(order = 0)
-   public void AfterEveryScenario() {
+   public void AfterEveryScenario() throws Exception {
+	   Thread.sleep(5000);
 	   wb.closedriver();
 	   System.out.println("Browser Closed");
    }
